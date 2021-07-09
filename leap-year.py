@@ -8,6 +8,8 @@ root = Tk()
 root.configure(bg="#f0f0f0")
 root.title('Leap Year Checker')
 root.geometry('200x200')
+root.eval('tk::PlaceWindow . center')
+root.resizable(False, False)
 
 def validate_as_int():
 	'''
